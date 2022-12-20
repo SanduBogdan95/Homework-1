@@ -57,7 +57,7 @@ public class Main {
                 modul = 6;
         Scanner sc = new Scanner(System.in);
         System.out.println("Introdu un numar: ");
-        double nr1 = scanner.nextDouble();
+        double nr1 = sc.nextDouble();
         System.out.println("Adunare: " + (nr1 + adunare));
         System.out.println("Scadere: " + (nr1 - scadere));
         System.out.println("Inmultire: " + (nr1 * inmultire));
